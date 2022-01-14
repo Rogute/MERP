@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Confirmation{% endblock %}
+
+{% block content%}
+<h2>You have successfully registered for the event!</h2>
+<br>
+<h3>Please save this code if You would like to cancel your registration:</h3>
+
+
+
+<p>{{ regis.reservation_code }}</p>
+
+{% endblock %}

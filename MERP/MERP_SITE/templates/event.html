@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Event{% endblock %}
+
+{% block content%}
+<img src="{{ event.thumbnail.url }}">
+<h1>{{ event.title }}</h1>
+<h2>{{ event.start_date }} - {{ event.end_date }}</h2>
+<p>{{ event.description }}</p>
+
+{% endblock %}
